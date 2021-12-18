@@ -1,0 +1,16 @@
+Déplacer le fichier " SFML-2.5.1 default.zip " dans C:\..\Documents\Visual Studio 2019\My Exported Templates
+Ce fichier est un modèle de projet qui permettra d'initialiser les projet avec les paramètres SFML
+
+Vérifier bien que le fichier SFML-2.5.1 soit bien installe dans le C:/
+Si il n'y est pas, télécharger le sur https://www.sfml-dev.org/download/sfml/2.5.1/index-fr.php
+Si il ne pas dans le disque dur C:/ , modifier les paramètres suivants : (facultative)
+ 
+Cliquer droit sur le projet -> Propriété (Toutes les configurations) -> C/C++ -> autre 
+répertoire inclus -> mettez le lien qui doit inclure obligatoirement \SFML-2.5.1\include
+Ensuite !
+Dans Editeur de lien -> répertoire de bibliothèque supplémentaire -> mettez le lien qui doit 
+inclure obligatoirement \SFML-2.5.1\lib
+
+Pour utilise la Release ou Debug sans visuale studio, il faut copier/colle les fichiers qui
+ce touve dans "Fichiers SFML" (.dll) dans le fichier de la Release ou Debug et vous pourrez 
+exécuter le programe sans erreur.
